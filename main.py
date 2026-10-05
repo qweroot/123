@@ -496,5 +496,8 @@ def main():
     print(f'{"=" * 60}', flush=True)
 
 
+# 给 SnapDeploy / FastAPI 用的入口
+from server import app
+
 if __name__ == '__main__':
     main()
